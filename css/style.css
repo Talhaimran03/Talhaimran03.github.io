@@ -1604,6 +1604,13 @@ textarea.form-input::-webkit-resizer {
    * ABOUT
    */
     /* soft-skills modal */
+    .service-list {
+        display: flex;
+    }
+    .service-item {
+        justify-content: center;
+        width: 33.33%;
+    }
     .soft-skills-modal {
         gap: 35px;
         max-width: 680px;
@@ -1616,6 +1623,7 @@ textarea.form-input::-webkit-resizer {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
         grid-gap: 5em;
+        justify-items: center;
     }
     /**
    * PORTFOLIO
